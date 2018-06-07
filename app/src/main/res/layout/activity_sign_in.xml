@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#EF9B0F"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="155dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Show My Account" />
+
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-155dp"
+        android:text="Delete my Account" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="67dp"
+        android:text="Surname" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="151dp"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/pasword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="226dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/buttonRegister"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter name" />
+
+    <EditText
+        android:id="@+id/et_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonRegister"
+        android:layout_alignTop="@+id/surname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter surname" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/username"
+        android:layout_alignStart="@+id/buttonRegister"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter username" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pasword"
+        android:layout_alignStart="@+id/buttonRegister"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Password" />
+
+    <Button
+        android:id="@+id/button_edit"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_delete"
+        android:layout_centerHorizontal="true"
+        android:text="EDIT MY ACCOUNT" />
+
+</RelativeLayout>

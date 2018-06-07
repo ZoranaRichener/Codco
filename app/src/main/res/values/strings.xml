@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CODCO learning app</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="initial_score">Score 0/13</string>
+
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="correct_toast">You got it!</string>
+
+    <string name="question_1">Arrays can also be created and initialize as in above statement.</string>
+    <string name="question_2">In an instance method or a constructor, "this" is a reference to the current object.</string>
+    <string name="question_3">The JRE deletes objects when it determines that they are no longer being used. This process is called Garbage Collection.</string>
+    <string name="question_4">All binary operators except for the assignment operators are evaluated from Left to Right.</string>
+    <string name="question_5"> In Java SE 7 and later, underscore characters "_" can appear anywhere between digits in a numerical literal.</string>
+    <string name="question_6">Interfaces can be instantiated.</string>
+    <string name="question_7">James Gosling is father of Java?</string>
+    <string name="question_8">The modifiers public and static cannot written in either order "public static" or "static public".</string>
+    <string name="question_9">Java technology is both a programming language and a platform.</string>
+    <string name="question_10">An individual array element from an array of type int, when passed to a method is passed by value.</string>
+    <string name="question_11">The modifiers public and static cannot written in either order "public static" or "static public".</string>
+    <string name="question_12">Java programming is not statically-typed, means all variables should not first be declared before they can be used.</string>
+    <string name="question_13">Objects of a subclass can be assigned to a super class reference.</string>
+    <string name="question_14">The condition in a WHERE clause can refer to only one value.</string>
+    <string name="question_15">The ADD command is used to enter one row of data or to add multiple rows as a result of a query.</string>
+    <string name="question_16">SQL provides the AS keyword, which can be used to assign meaningful column names to the results of queries using the SQL built-in functions..</string>
+    <string name="question_17">A general rule is that theelement width and height attributes should match the actual size of the photo on a Web page..</string>
+    <string name="question_18"> Parent constructors are not called implicitly if the child class defines a constructor.</string>
+    <string name="question_19">Interface constant can be override in class implementing the interface.</string>
+    <string name="question_20">Static methods can be call with class name and colon operator, $this is not available inside the method declared as static</string>
+    <string name="question_21">If parent class has Final method abc(). Method abc() can be overridden in child class.</string>
+    <string name="question_22">In PHP, a class can be inherited from one base class and with multiple base classes.</string>
+
+    <string name="note">CODCO is a smart app which is designed with simple and optimized user interface. CODCO has all the categories of test question which are used for IT job test.</string>
+    <string name="title_activity_learn_java">LearnJavaActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

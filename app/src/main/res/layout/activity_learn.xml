@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF9B0F"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <Button
+        android:id="@+id/btnJava"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="JAVA" />
+
+    <Button
+        android:id="@+id/btnSql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnJava"
+        android:layout_centerHorizontal="true"
+        android:text="SQL" />
+
+    <Button
+        android:id="@+id/btnPhp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSql"
+        android:layout_centerHorizontal="true"
+        android:text="PHP" />
+
+    <Button
+        android:id="@+id/btnHtml"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPhp"
+        android:layout_centerHorizontal="true"
+        android:text="HTML" />
+
+    <Button
+        android:id="@+id/btnCss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/btnHtml"
+        android:layout_centerHorizontal="true"
+        android:text="CSS" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="199dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/zagrade" />
+
+
+</RelativeLayout>
